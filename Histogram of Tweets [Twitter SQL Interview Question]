@@ -25,7 +25,7 @@ _____________________________________________________
  
 
 --------------------------------------------
--- Improve the syntax to be more readable.
+-- Improve the syntax to be more readable. (final solution)
 -----------------
 WITH SUP_TWEETS AS (
     SELECT COUNT(tweet_id) as tweet_count, user_id
