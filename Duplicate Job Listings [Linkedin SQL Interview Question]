@@ -8,7 +8,7 @@ WITH JobListingsWithCount AS (
   HAVING COUNT(title||' - '||description) > 1
 )
 SELECT
- count(*)
+ count(DISTINCT  company_id)
 FROM
   JobListingsWithCount;
 
